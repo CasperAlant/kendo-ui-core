@@ -92,6 +92,20 @@ Defines the line color of the rectangle.
 
 Defines the stroke width of the rectangle.
 
+### stroke.dashType `String`
+
+The dash type of the shape.
+
+The following dash types are supported:
+
+* "dash" - a line consisting of dashes
+* "dashDot" - a line consisting of a repeating pattern of dash-dot
+* "dot" - a line consisting of dots
+* "longDash" - a line consisting of a repeating pattern of long-dash
+* "longDashDot" - a line consisting of a repeating pattern of long-dash-dot
+* "longDashDotDot" - a line consisting of a repeating pattern of long-dash-dot-dot
+* "solid" - a solid line
+
 ### width `Number`
 
 Sets the width of the rectangle.
